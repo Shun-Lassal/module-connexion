@@ -1,0 +1,277 @@
+head, body{
+  margin:0;
+  padding:0;
+  background-color:teal;
+  z-index:0;
+  position: relative;
+}
+
+@keyframes animindex {
+    0%{background-position:50% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:50% 0%}
+}
+
+header {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width:100vw;
+  height:10vh;
+  background-color:teal;
+  box-shadow: 0px 0px 10px 5px black;
+  background-color: #008080;
+  background-image: url("https://www.transparenttextures.com/patterns/dark-leather.png");
+
+}
+
+header img {
+  width: 60px;
+  height: 60px;
+  padding:2px;
+  border-radius: 20px;
+}
+
+header a {
+  font-size:30px;
+  align-self:center;
+  padding-right:7px;
+  padding-left:7px;
+  padding-top:7px;
+  padding-bottom:7px;
+  text-decoration:none;
+  color:white;
+}
+
+header a.link:hover {
+  border-right:1px solid grey;
+  border-left:1px solid grey;
+  color:grey;
+}
+
+main#index {
+  display:flex;
+  flex-direction:row;
+  justify-content: flex-start;
+  background: linear-gradient(180deg, #008080, #002121);
+  background-size: 400% 400%;
+  animation: animindex 30s ease infinite;
+
+}
+
+section#index1 {
+  width: 35vw;
+  height: 90vh;
+
+}
+
+section#index11 {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+section#index11 a {
+  margin-top:20px;
+  padding:15px;
+  border-radius: 30px;
+  background: rgb(0,128,128);
+  background: linear-gradient(180deg, rgba(0,128,128,1) 0%, rgba(255,220,59,0.21612394957983194) 100%);
+  width: 8vw;
+  text-align:center;
+  text-decoration:none;
+  color:wheat;
+  font-size:20px;
+  box-shadow: 0px 0px 20px 0px black;
+}
+
+
+section#index1 p {
+  text-align:center;
+  color:wheat;
+}
+
+h1#main {
+  font-size:32px;
+  color:wheat;
+  text-align:center;
+  margin-top:30vh;
+}
+
+section#index2 {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/2/22/Case_Study_House_No._22.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 70vw;
+  height: 90vh;
+}
+
+main#inscription {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #008080;
+  background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+  height: 90vh;
+}
+
+form#inscription h2 {
+
+}
+
+form#inscription {
+  margin-top:3vh;
+  width:30vw;
+  text-align:center;
+  background-color:darkcyan;
+  padding:10px;
+  border-radius: 20px;
+  border: 1px solid black;
+  height: 85vh;
+  background-image: url("https://www.transparenttextures.com/patterns/dark-matter.png");
+}
+
+form#inscription label {
+  font-size:30px;
+  margin: 10px;
+  display:block;
+  text-decoration:underline;
+}
+
+form#inscription input {
+  width: 20vw;
+  height: 4vh;
+  text-align:center;
+  font-size:25px;
+  border-radius: 5px;
+}
+
+form#inscription input#bouton-inscription {
+  margin-top:20px;
+  font-size:30px;
+  height: auto;
+  width: 10vw;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 0px black;
+  background: rgb(0,128,128);
+  background: linear-gradient(180deg, rgba(0,128,128,1) 0%, rgba(255,220,59,0.21612394957983194) 100%);
+  color:wheat;
+}
+
+form#inscription h2 {
+  font-size:40px;
+  text-decoration:underline;
+}
+
+main#connexion {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #008080;
+  background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+  height: 90vh;
+}
+
+form#connexion {
+  margin-top:3vh;
+  width:30vw;
+  text-align:center;
+  background-color:darkcyan;
+  padding:10px;
+  border-radius: 20px;
+  border: 1px solid black;
+  height: 50vh;
+  background-image: url("https://www.transparenttextures.com/patterns/dark-matter.png");
+}
+
+form#connexion h2 {
+  font-size:40px;
+  text-decoration:underline;
+}
+
+form#connexion label {
+  font-size:30px;
+  margin: 10px;
+  display:block;
+  text-decoration:underline;
+}
+
+form#connexion input {
+  width: 20vw;
+  height: 4vh;
+  text-align:center;
+  font-size:25px;
+  border-radius: 5px;
+}
+
+form#connexion input#bouton-connexion {
+  margin-top:20px;
+  font-size:30px;
+  height: auto;
+  width: 20vw;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 0px black;
+  background: rgb(0,128,128);
+  background: linear-gradient(180deg, rgba(0,128,128,1) 0%, rgba(255,220,59,0.21612394957983194) 100%);
+  color:wheat;
+}
+
+main#admin h1{
+  display:block;
+  text-align:center;
+  text-decoration:underline;
+  color:white;
+}
+
+main#admin {
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #008080;
+  background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+  height: 90vh;
+}
+
+form#profil {
+  margin-top:3vh;
+  width:30vw;
+  text-align:center;
+  background-color:darkcyan;
+  padding:10px;
+  border-radius: 20px;
+  border: 1px solid black;
+  height: 60vh;
+  background-image: url("https://www.transparenttextures.com/patterns/dark-matter.png");
+}
+
+form#profil h2 {
+  font-size:40px;
+  text-decoration:underline;
+}
+
+form#profil label {
+  font-size:30px;
+  margin: 10px;
+  display:block;
+  text-decoration:underline;
+}
+
+form#profil input {
+  width: 20vw;
+  height: 4vh;
+  text-align:center;
+  font-size:25px;
+  border-radius: 5px;
+}
+
+form#profil input#bouton-modification {
+  margin-top:20px;
+  font-size:30px;
+  height: auto;
+  width: 20vw;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 0px black;
+  background: rgb(0,128,128);
+  background: linear-gradient(180deg, rgba(0,128,128,1) 0%, rgba(255,220,59,0.21612394957983194) 100%);
+  color:wheat;
+}
